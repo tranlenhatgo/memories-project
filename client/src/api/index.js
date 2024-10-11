@@ -2,7 +2,8 @@ import axios from 'axios';
 
 //backend url
 const API = axios.create({
-  baseURL: 'http://localhost:5000',
+  // baseURL: 'http://localhost:5000',
+    baseURL: 'https://memories-app-server-0a77c8fedce2.herokuapp.com',
 });
 
 //intercept request, add token to header
